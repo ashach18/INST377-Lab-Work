@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;      
   }
 
@@ -70,6 +70,13 @@
   .last-item {
     order: -1;
   }
+
+  .social,
+.subscribe{
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
   
   .photo-grid-item {
     border: 1px solid #fff;
