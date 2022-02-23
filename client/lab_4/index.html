@@ -24,7 +24,7 @@
       <div class='photo-grid-container'>
         <div class='photo-grid'>
           <div class='photo-grid-item first-item'>
-            <div class="carousel_item">
+            <div class="carousel_item carousel_item--visible">
             <img src='images/one.svg'/>
           </div>
           <div class='photo-grid-item'>
@@ -44,18 +44,24 @@
       </div>
       
       <div class='photo-grid-item'>
+        <div class="carousel_item">
         <img src='images/four.svg'/>
       </div>
       <div class='photo-grid-item last-item'>
+        <div class="carousel_item">
         <img src='images/five.svg'/>
       </div>
-      
+        <div class="carousel_actions">
+            <button id="carousel_buttons--prev"> Prev Slide</button>
+            <button id="carousel_buttons--next"> Next Slide</button>
+
+        </div>
 
             </div>
             </div>
           </div>
       </div>
-      
+      <script src="app.js"></script>
   </body>
 </html>
 
