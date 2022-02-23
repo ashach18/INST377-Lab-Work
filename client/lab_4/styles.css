@@ -142,3 +142,11 @@
     height: 40px;
 }
 
+.carousel.carousel_actions button#carousel_buttons--prev{
+    margin-left: 20px;
+}
+
+.carousel.carousel_actions button#carousel_buttons--next{
+    margin-right: 20px;
+}
+
