@@ -4,43 +4,44 @@ const totalSlides= slides.length;
 
 document
   .querySelector('carousel_button--next')
-  .addEventListener("click", function() {
-   moveToNextSlide();
+  .addEventListener('click', () => {
+    // eslint-disable-next-line no-use-before-define
+    moveToNextSlide();
   });
 
-
-document. 
- getElementById('carousel_button--prev')
- .addEventListener("click", function() {
-     moveToPrevSlide();
- });
+document 
+  .getElementById('carousel_button--prev')
+  .addEventListener('click', () => {
+    // eslint-disable-next-line no-use-before-define
+    moveToPrevSlide();
+  });
 
 function updateSlidePosition() {
- for(let slide of slides){
+  // eslint-disable-next-line no-restricted-syntax
+  for (const slide of slides) {
     slide.classList.remove('carousel_item--visible');
     slide.classList.add('carousel_item--hidden');
-}
- slides[slidePosition].classList.add('carousel_item--visible');
+  }
+  slides[slidePosition].classList.add('carousel_item--visible');
 }
 
- 
- function moveToNextSlide() {
+function moveToNextSlide() {
   updateSlidePosition();
 
-if (slidePosition === totalSlides-1) {
-slidePosition = 0;
-
-}else {
-slidePosition++;
- }
+  if (slidePosition === totalSlides-1) {
+    slidePosition = 0;
+  } else {
+    // eslint-disable-next-line no-plusplus
+    slidePosition++;
+  }
 }
-  
+
 function moveToPrevSlide() {
   if (slidePosition === totalSlides) {
-  slidePosition = totalSlides - 1;
-
+    slidePosition = totalSlides - 1;
   } else {
+    // eslint-disable-next-line no-plusplus
     slidePosition--;
   }
- updateSlidePosition();
+  updateSlidePosition();
 }
