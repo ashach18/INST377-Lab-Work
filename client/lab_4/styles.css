@@ -106,6 +106,27 @@
   flex: initial;
   width: 300px;
 }
+.carousel {
+    overflow: hidden;
+    max-width: 300px;
+    position: relative;
+}
 
-  
-  
+.carousel .carousel_item,
+.carousel.carousel_item--hidden {
+    display:none;
+
+}
+.carousel.carousel_item img {
+    width:100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.carousel.carousel_item--visible{
+    display: block;
+}
+.carousel.carousel_actions{
+    display:flex;
+}
+
