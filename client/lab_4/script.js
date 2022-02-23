@@ -28,18 +28,19 @@ function updateSlidePosition() {
   updateSlidePosition();
 
 if (slidePosition === totalSlides-1) {
-    slidePosition = 0;
+slidePosition = 0;
 
 }else {
-    slidePosition++;
+slidePosition++;
  }
 }
   
 function moveToPrevSlide() {
- if (slidePosition === totalSlides) {
-  slidePosition = 0;
+  if (slidePosition === totalSlides) {
+  slidePosition = totalSlides - 1;
 
-  }else {
-     slidePosition--;
- }
+  } else {
+    slidePosition--;
   }
+ updateSlidePosition();
+}
