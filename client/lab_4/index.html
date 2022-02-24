@@ -1,69 +1,63 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Ashwin Acharya Lab 4: HTML Forms</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
-   
-     <div class='menu-container'>
-      <div class='menu'>
-        <div class='date'>Feb 15,2022</div>
-        <div class='signup'>Sign Up</div>
-        <div class='login'>Login</div>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>Ashwin Acharya Lab 3: Flexbox Demo</title>
+  <link rel='stylesheet' href='styles.css' />
+</head>
+
+<body>
+  <nav> <a>Ashwin Acharya Lab 3:Flexbox Demo </a> </nav>
+  <div class='menu-container'>
+    <div class='menu'>
+      <div class='date'>Feb 15,2022</div>
+      <div class="links">
+        <div class='signup'> <a href="data.html">Database Demos </a> </div>
+        <div class='login'><a href="index.html"> Main Page </a></div>
       </div>
     </div>
-    <div class='header-container'>
-        <div class='header'>
-          <div class='subscribe'>Subscribe &#9662;</div>
-          <div class='logo'><img src='images/awesome-logo.svg'/></div>
-          <div class='social'><img src='images/social-icons.svg'/></div>
+  </div>
+  <div class='header-container'>
+    <div class='header'>
+      <div class='subscribe'>Group github &#9662;</div>
+      <div class='logo'><img src='images/awesome-logo.svg' /></div>
+      <div class='social'> <a href="https://ash-inst377.herokuapp.com/lab_3/">My Github</a></div>
+    </div>
+  </div>
+  <div class='photo-grid-container'>
+    <div class='photo-grid'>
+      <button aria-label="Next Slide" id="carousel_button--next">Next</button>
+      <div class="carousel">
+        <div class='carousel_item carousel_item--visible'>
+          <img src='images/one.svg' />
         </div>
-      </div>
-      <div class='photo-grid-container'>
-        <div class="carousel">
-        <div class='photo-grid'>
-          <div class='photo-grid-item first-item'>
-            <div class="carousel_item carousel_item--visible">
-            <img src='images/one.svg'/>
-          </div>
-          <div class='photo-grid-item'>
-            <div class="carousel_item" >
-            <img src='images/two.svg'/>
-          </div>
-          <div class='photo-grid-item'>
-            <div class="carousel_item">
-            <img src='images/three.svg'/>
-          </div>
+        <div class='carousel_item'>
+          <img src='images/two.svg' />
         </div>
-      </div>
-      <div class='footer'>
-        <div class='footer-item footer-one'></div>
-        <div class='footer-item footer-two'></div>
-        <div class='footer-item footer-three'></div>
+        <div class='carousel_item'>
+          <img src='images/three.svg' />
+        </div>
+        <div class='carousel_item'>
+          <img src='images/four.svg' />
+        </div>
+        <div class='carousel_item last-item'>
+          <img src='images/five.svg' />
+        </div>
       </div>
       
-      <div class='photo-grid-item'>
-        <div class="carousel_item">
-        <img src='images/four.svg'/>
-      </div>
-      <div class='photo-grid-item last-item'>
-        <div class="carousel_item">
-        <img src='images/five.svg'/>
-      </div>
-        <div class="carousel_actions">
-            <button id="carousel_buttons--prev"> Prev Slide</button>
-            <button id="carousel_buttons--next"> Next Slide</button>
+      <button aria-label="Previous Slide" id="carousel_button--prev">Prev</button>
+    </div>
+  </div>
+  <div class='footer'>
+    <div class='footer-item footer-one'>Footer Item One</div>
+    <div class='footer-item footer-two'>Footer Item Two</div>
+    <div class='footer-item footer-three'> Footer Item Three</div>
+  </div>
 
-        </div>
 
-            </div>
-            </div>
-          </div>
-      </div>
-      <script src="script.js"></script>
-  </body>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
-
-

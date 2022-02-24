@@ -42,6 +42,10 @@
   
    .links {
     margin-left: 20px;
+    
+   }
+   .links a{
+     color: white;
    }
    
    
