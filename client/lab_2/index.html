@@ -2,64 +2,90 @@
 
 
 <html lang='en'>
-    <head>
-    <meta charset='UTF-8'/>
+
+<head>
+    <meta charset='UTF-8' />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>CSS Selectors</title>
-    <link rel='stylesheet' href='styles.css'/>
+    <link rel='stylesheet' href='styles.css' />
 </head>
-       
-<body>       
-<h1 class="header">Ashwin Acharya Lab 2: CSS Selectors</h1>
 
-  <h2 class="section_2">Selectors</h2>
-   <h2 class="section_2">Main Page</h2>
+<body>
+    <div class="wrapper">
+        <h1 class="header">Ashwin Acharya Lab 2: CSS Selectors</h1>
+        <nav>
+            <a href=selectors.html>Selectors</a>
+            <a href=index.html> Main Page</a>
+        </nav>
+        <div class="container">
+            <h2 class="subtitle">First, the basics.</h2>
 
-<h1>First, the basics.</h1>
+            <p class="default">You need the following to build your website.</p>
+            <div class="section_1">
+                <div class="left">
 
-<p>You need the following to build your website.</p>
+                    <ul>
 
-<ul class="section_1">
-    <li>HTML and CSS</li>
-    <li>Javascript</li> 
-    <li>Node.js</li> 
-    <li>And other web development frameworks</li>
-</ul>
-<h2>You should list your top 3 goals for the class below.</h2>
+                        <li>HTML and CSS</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>And other web development frameworks</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <p>You should list your top 3 goals for the class below.</p>
+                    <ol>
+                        <li>Learn front-end web design</li>
+                        <li>Learn new programming languages</li>
+                        <li>Learn how to work with others in a technical space</li>
+                        <li>Learn popular web dev frameworks</li>
+                    </ol>
+                </div>
+            </div>
 
-<ol class="section_1">
-<li>Learn front-end web design</li>
-<li>Learn new programming languages</li>
-<li>Learn how to work with others in a technical space</li>
-<li>Learn popular web dev frameworks</li>
-</ol>
 
-<h2 class="section_2">Let's Try Some Inline Elements</h2>
 
-<i class="section_2">Sometimes you want to draw attention to something in a line of text.</i>
- <b class="section_2"> Sometimes you want to strongly emphasize something in the text!</b>
+            <div class="section_2">
 
-<b class="section_2"><i> <br> Sometimes you want to do both.</br/></i></b>
+                <h2 class="subtitle">Let's Try Some Inline Elements</h2>
 
-<h2 class="wrapper">Empty Elements</h2>
+                <p class="default">Sometimes you want to <em>draw attention </em>to something in a line of text.</p>
+                <p class="default"> Sometimes you want to <strong>strongly emphasize something </strong> in the text!
+                </p>
 
-<p class="wrapper">Soft line breaks can't wrap anything.<br> Neither can image tags</br/>, or hard lines.
-<br> Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.<br/></p>
+                <p class="default"><em> <strong> Sometimes you want to do both.</em></strong></p>
+            </div>
+            <div class="section_3">
+                <h3>Empty Elements</h3>
 
-<h2 class="section_4 ">Images </h2>
-<p class="section_4">Don't forget to use alt text on your images. It's important for accessibility.</p>
-<p class="section_4">If you build this page right, your images will form a small "carousel" </p>
-<img src= 'images2/images/mochi.gif' alt= "Bouncing mochi">
-<img src= 'images2/images/mochi.jpg' alt= "Happy mochi">
-<img src= 'images2/images/mochi.png' alt= "Small mochi">
-<img src= 'images2/images/mochi.svg'alt= "Tiny Mochi">
+                <p> Soft line breaks can't wrap anything.<br /> Neither can image tags, or hard lines.
+                    <br /> Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
+                    <hr />
+                </p>
+            </div>
+            <div class="section_4">
+                <div class="text">
+                    <h2 class="subtitle">Images </h2>
+                    <p class="default">Don't forget to use alt text on your images. It's important for accessibility.
+                    </p>
+                </div>
+                
+                <div class="grid">
+                    <img id="slide_1" src='./images/mochi.gif' alt="Bouncing mochi">
+                    <img id="slide_2"src='./images/mochi.jpg' alt="Happy mochi">
+                    <img id="slide_3"src='./images/mochi.png' alt="Small mochi">
+                    <img id="slide_4"src='./images/mochi.svg' alt="Tiny Mochi">
+                </div>
+            </div> <hr/>
+              <div class="footer">
+           <p class="default"> <a href="https://ash-inst377.herokuapp.com/lab_1/">Include a hyperlink here to your github repository for
+                class.</a></p>
 
-<a href="https://ash-inst377.herokuapp.com/lab_1/" >Include a hyperlink here to your github repository for class.</a>
+            <p class="default">If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
+        </div>
+        </div>
+    </div>
+</body>
 
-<p class="header">If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
-    </body>
 </html>
-
-
-
