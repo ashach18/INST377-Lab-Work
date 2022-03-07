@@ -3,10 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  width: 100%;
+  height: 100%;
+  background-color: darkslategray;
+}
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
     ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
   background-color: darkslategray;
