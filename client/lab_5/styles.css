@@ -57,6 +57,7 @@ flex-direction: column;
 .block{
   background-color: white;
   padding: 15px;
+  font-family: inherit;
 }
 
 .container .box {
@@ -64,16 +65,20 @@ flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  font-family: inherit;
 }
 
 label{
   font-weight:bold;
+  font-family: inherit;
 }
 
 fieldset legend{
   font-weight:bold;
+  font-family: inherit;
 }
 
 #titlebox{
   background-color: gold;
+  font-family: inherit;
 }
