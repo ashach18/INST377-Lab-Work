@@ -24,6 +24,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 35px;
+  align-items:center;
 }
 .columns form {
 display:flex;
@@ -51,4 +52,28 @@ flex-direction: column;
   padding: 15px;
   border-radius: 4px;
   background-color: #efefef;
+}
+
+.block{
+  background-color: white;
+  padding: 15px;
+}
+
+.container .box {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+label{
+  font-weight:bold;
+}
+
+fieldset legend{
+  font-weight:bold;
+}
+
+#titlebox{
+  background-color: gold;
 }
