@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    width: 100%;
+    height: 100%;
+    background-color: darkslategray;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    background-color: darkslategray;
+  }
+  
+  /* Page Layout */
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 35px;
+    align-items:center;
+    font-family: inherit;
+  }
+  .columns form {
+  display:flex;
+  flex-direction: column;
+  font-family: inherit;
+  }
+  
+  .wrapper {
+    display: flex;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’,
+      ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+  }
+  .container {
+    max-width: 960px;
+    margin-top: 25px;
+    font-family: inherit;
+  }
+  
+  .header {
+    display: block;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: hsl(48, 100%, 67%) ;
+    font-family: inherit;
+  }
+  
+  .page_item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #efefef;
+    font-family: inherit;
+  }
+  
+  .block{
+    background-color: white;
+    padding: 15px;
+    font-family: inherit;
+  }
+  
+  .container .box {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: inherit;
+  }
+  
+  label{
+    font-weight:bold;
+    font-family: inherit;
+  }
+  
+  fieldset legend{
+    font-weight:bold;
+    font-family: inherit;
+  }
+  
+  #titlebox{
+    background-color: gold;
+    font-family: inherit;
+  }
+
+
+  
